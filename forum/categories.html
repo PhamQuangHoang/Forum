@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>categories</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="css/cat.css">
+
+</head>
+<body>
+	
+    
+    <nav class="navbar navbar-expand-lg  sticky-top">
+  <a class="navbar-brand" href="#">Logo</a>
+  <button class="navbar-toggler " type="button" >
+    <span class="navbar-toggler-icon bt"><i class="fas fa-bars nav-link " style="font-size: 30px;"></i></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" >
+    <ul class="navbar-nav w-100 justify-content-end">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Forum</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">about</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Contact</a>
+      </li>
+
+
+    </ul>
+    </div>
+<div class="navmb">
+      <div class="hide-login-btn"><i class="fas fa-times"></i>
+      </div>
+   <ul class="navbar-navmb">
+      <li class="navmbli active">
+        <a class="border-bottom" href="#">Home</a>
+      </li>
+      <li class="navmbli">
+        <a class="border-bottom" href="#">Forum</a>
+      </li>
+      <li class="navmbli">
+        <a class="border-bottom" href="#">about</a>
+      </li>
+      <li class="navmbli">
+        <a class="border-bottom" href="#">Contact</a>
+      </li>
+    </ul>     
+
+ </div>
+  </nav>
+  
+
+<section class="content">
+      <div class="container">
+        <h1 align="center">Forum</h1>
+        <div class="clear"></div>
+          
+   <div class="row right">
+      <div class="col-xs-12 col-md-6 cat-view">
+         <div class="card mb-6">
+           <div class="cat-img text-center"><img class="img-fluid cat-img" src="https://static.wixstatic.com/media/84770f_db6aee71ab19410489a8a2bf0f84ae2b~mv2_d_6016_4016_s_4_2.jpg/v1/fit/w_455,h_304,al_c,q_80/file.webp"  alt="Responsive image"></div>
+            <div class="card-body text-center">
+              <div class="fourty"></div>
+               <h5 class="card-title ">Card title</h5>
+                <div class="twenty"></div>
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" tabindex="-1">100 view</a>
+                    </li>
+                    <div class="vl"></div>
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#">100post</a>
+                    </li>
+                  </ul>
+                
+               <div class="card-text"><p class="card-text d-none d-lg-block">Some quick example text to build on the card title and make up the bulk of the card's content.</p></div>
+                 <div class="viewcat"><a href="#" class="btn btn-primary btn-sm viewcat">View Categories</a></div>
+            </div>
+         </div>
+      </div> 
+      <div class="col-xs-12 col-md-6 cat-view">
+         <div class="card mb-6">
+           <div class="cat-img text-center"><img class="img-fluid cat-img" src="https://static.wixstatic.com/media/84770f_089387f864f6495487b37c5a86980684~mv2_d_6000_4000_s_4_2.jpg/v1/fit/w_455,h_304,al_c,q_80/file.webp"  alt="Responsive image"></div>
+            <div class="card-body text-center">
+              <div class="fourty"></div>
+               <h5 class="card-title ">Card title</h5>
+                <div class="twenty"></div>
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" tabindex="-1">100 view</a>
+                    </li>
+                    <div class="vl"></div>
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#">100post</a>
+                    </li>
+                  </ul>
+                   
+               <div class="card-text"><p class="card-text d-none d-lg-block">Some quick example text to build on the card title and make up the bulk of the card's content.</p></div>
+               <div class="viewcat"><a href="#" class="btn btn-primary btn-sm viewcat">View Categories</a></div>
+            </div>
+         </div>
+      </div>
+     
+   </div>       
+   
+    </div>
+</section>
+
+   <footer>
+     
+   </footer>
+
+<script>
+$(function(){
+    $('div.cat-view').hover(function(){
+        $('viewcat').toggleClass("d-none");
+    },function(){
+        $(this).css('display','inline-block');
+});
+});
+</script>
+
+
+	<script type="text/javascript" src="js/navbar.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html> 
